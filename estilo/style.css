@@ -3,7 +3,7 @@
 /*
     Paleta de cores 
     verde: #49a09d
-    lilas: #5f2c82
+    marsala: #530101e3
 */
 
 * {
@@ -14,7 +14,7 @@
 }
 
 body, html {
-    background-color: #5f2c82;
+    background-color: #530101e3;
     height: 100vh;
     width: 100vw;
 }
@@ -39,11 +39,14 @@ section#login {
     border-radius: 20px;
     box-shadow: 0px 0px 10px black;
 
+    transition: width .3s, height 0.3s;
+    transition-timing-function: ease;
+
 }
 
 section#login > div#imagem {
     display: block;
-    background: #5f2c82 url(../imagens/pexels-david-underland-3523621.jpg);
+    background: #530101e3 url(../imagens/pexels-david-underland-3523621.jpg);
     background-size: cover;
     height: 200px;
 }
